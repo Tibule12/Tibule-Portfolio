@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tibule-Portfolio/static/css/main.58dcc9f5.css",
+    "main.js": "/Tibule-Portfolio/static/js/main.971a28e6.js",
+    "index.html": "/Tibule-Portfolio/index.html",
+    "main.58dcc9f5.css.map": "/Tibule-Portfolio/static/css/main.58dcc9f5.css.map",
+    "main.971a28e6.js.map": "/Tibule-Portfolio/static/js/main.971a28e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58dcc9f5.css",
+    "static/js/main.971a28e6.js"
+  ]
+}

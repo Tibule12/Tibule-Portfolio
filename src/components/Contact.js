@@ -29,7 +29,11 @@ const Contact = () => {
         <div className="contact-info">
           <h4>Let's Talk</h4>
           <p>Turning ideas into seamless digital experiences.</p>
+<<<<<<< HEAD
           <img src="images/contact.jpg" alt="Contact" className="contact-pic" />
+=======
+          <img src="/Tibule-Portfolio/images/contact.jpg" alt="Contact" className="contact-pic" />
+>>>>>>> gh-pages
           <div className="details">
             <p><strong>Email:</strong> thulani.mtshwelo@capaciti.org.za </p>
             <p><strong>Phone:</strong> +27 621349570</p>

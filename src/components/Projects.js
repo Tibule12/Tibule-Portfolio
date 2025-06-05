@@ -7,7 +7,11 @@ const Projects = () => {
       <div className="portfolio-grid">
         <div className="portfolio-item">
           <a href="https://khayelitsha-youth-choir.web.app/" target="_blank" rel="noopener noreferrer">
+<<<<<<< HEAD
             <img src="/images/project3.jpg" alt="Khayelitsha Youth Choir" />
+=======
+            <img src="/Tibule-Portfolio/images/project3.jpg" alt="Khayelitsha Youth Choir" />
+>>>>>>> gh-pages
             <div className="overlay">
               <h3>Khayelitsha Youth Choir</h3>
               <p>Community Choir Website</p>
@@ -16,7 +20,11 @@ const Projects = () => {
         </div>
         <div className="portfolio-item">
           <a href="https://paul455565.github.io/TheFiveGuys/" target="_blank" rel="noopener noreferrer">
+<<<<<<< HEAD
             <img src="/images/project4.jpg" alt="The Five Guys" />
+=======
+            <img src="/Tibule-Portfolio/images/project4.jpg" alt="The Five Guys" />
+>>>>>>> gh-pages
             <div className="overlay">
               <h3>The Five Guys</h3>
               <p>Restaurant Website</p>
@@ -25,7 +33,11 @@ const Projects = () => {
         </div>
         <div className="portfolio-item">
           <a href="https://aidan2125.github.io/Backend-testing/" target="_blank" rel="noopener noreferrer">
+<<<<<<< HEAD
             <img src="/images/project3.jpg" alt="Dev Squad" />
+=======
+            <img src="/Tibule-Portfolio/images/project3.jpg" alt="Dev Squad" />
+>>>>>>> gh-pages
             <div className="overlay">
               <h3>Dev Squad</h3>
               <p>Project Link</p>

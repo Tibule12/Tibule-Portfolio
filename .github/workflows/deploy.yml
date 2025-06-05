@@ -37,3 +37,6 @@ jobs:
         with:
           github_token: ${{ secrets.DEPLOY_TOKEN }}
           publish_dir: ./build
+
+      - name: Disable Jekyll
+        run: echo "Jekyll processing disabled" > ./build/.nojekyll

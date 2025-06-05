@@ -9,7 +9,11 @@ const Home = () => {
         <p>I craft beautiful, functional websites that make an impact.</p>
         <a href="#project" className="cta-button">See My Work</a>
       </div>
+<<<<<<< HEAD
       <img src="/images/Thulani Mtshwelo.jpeg" alt="Profile" className="profile-pic" />
+=======
+      <img src="/Tibule-Portfolio/images/Thulani Mtshwelo.jpeg" alt="Profile" className="profile-pic" />
+>>>>>>> gh-pages
     </section>
   );
 };
