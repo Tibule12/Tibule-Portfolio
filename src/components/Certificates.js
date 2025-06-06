@@ -11,7 +11,7 @@ const certificates = [
   { id: 8, title: 'Certificate 8', file: '/Tibule-Portfolio/images/8.pdf', thumbnail: '' },
   { id: 9, title: 'Certificate 9', file: '/Tibule-Portfolio/images/9.pdf', thumbnail: '' },
   { id: 10, title: 'Certificate 10', file: '/Tibule-Portfolio/images/10.pdf', thumbnail: '' },
-  { id: 11, title: 'CamScanner Certificate', file: 'https://tibule12.github.io/images/CamScanner_Certificate.pdf', thumbnail: '' },
+  { id: 11, title: 'CamScanner Certificate', file: '/images/CamScanner_Certificate.pdf', thumbnail: '' },
 ];
 
 const Certificates = () => {
