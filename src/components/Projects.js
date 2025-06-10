@@ -32,6 +32,15 @@ const Projects = () => {
             </div>
           </a>
         </div>
+        <div className="portfolio-item">
+          <a href="https://tibule12.github.io/Task-Management/" target="_blank" rel="noopener noreferrer">
+            <img src="/images/placeholder.jpg" alt="Task Management" />
+            <div className="overlay">
+              <h3>Task Management</h3>
+              <p>Task Management Project</p>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   );

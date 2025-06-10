@@ -14,6 +14,8 @@ const certificates = [
   { id: 11, title: 'CamScanner Certificate', file: process.env.PUBLIC_URL + '/images/CamScanner_Certificate.pdf', thumbnail: '' },
 ];
 
+const defaultThumbnail = process.env.PUBLIC_URL + '/images/certificate-placeholder.png';
+
 const Certificates = () => {
   return (
     <section id="certificates" className="section certificates-section">
@@ -42,18 +44,13 @@ const Certificates = () => {
               }
             }}
           >
-            {cert.thumbnail && (
-              <img
-                src={cert.thumbnail}
-                alt={cert.title}
-                className="certificate-thumbnail"
-                onError={(e) => { e.target.style.display = 'none'; }}
-              />
-            )}
-            <div
-              className="certificate-title"
-              style={{ color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}
-            >
+            <img
+              src={cert.thumbnail || defaultThumbnail}
+              alt={cert.title}
+              className="certificate-thumbnail"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+            <div className="certificate-title">
               {cert.title}
             </div>
           </div>
