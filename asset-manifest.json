@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tibule-Portfolio/static/css/main.0f0added.css",
-    "main.js": "/Tibule-Portfolio/static/js/main.11e4250a.js",
+    "main.css": "/Tibule-Portfolio/static/css/main.189036f2.css",
+    "main.js": "/Tibule-Portfolio/static/js/main.fd8a8c0f.js",
     "index.html": "/Tibule-Portfolio/index.html",
-    "main.0f0added.css.map": "/Tibule-Portfolio/static/css/main.0f0added.css.map",
-    "main.11e4250a.js.map": "/Tibule-Portfolio/static/js/main.11e4250a.js.map"
+    "main.189036f2.css.map": "/Tibule-Portfolio/static/css/main.189036f2.css.map",
+    "main.fd8a8c0f.js.map": "/Tibule-Portfolio/static/js/main.fd8a8c0f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f0added.css",
-    "static/js/main.11e4250a.js"
+    "static/css/main.189036f2.css",
+    "static/js/main.fd8a8c0f.js"
   ]
 }
