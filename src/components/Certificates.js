@@ -1,17 +1,17 @@
 import React from 'react';
 
 const certificates = [
-  { id: 1, title: 'Certificate 1', file: '/Tibule-Portfolio/images/1.pdf', thumbnail: '' },
-  { id: 2, title: 'Certificate 2', file: '/Tibule-Portfolio/images/2.pdf', thumbnail: '' },
-  { id: 3, title: 'Certificate 3', file: '/Tibule-Portfolio/images/3.pdf', thumbnail: '' },
-  { id: 4, title: 'Certificate 4', file: '/Tibule-Portfolio/images/4.pdf', thumbnail: '' },
-  { id: 5, title: 'Certificate 5', file: '/Tibule-Portfolio/images/5.pdf', thumbnail: '' },
-  { id: 6, title: 'Certificate 6', file: '/Tibule-Portfolio/images/6.pdf', thumbnail: '' },
-  { id: 7, title: 'Certificate 7', file: '/Tibule-Portfolio/images/7.pdf', thumbnail: '' },
-  { id: 8, title: 'Certificate 8', file: '/Tibule-Portfolio/images/8.pdf', thumbnail: '' },
-  { id: 9, title: 'Certificate 9', file: '/Tibule-Portfolio/images/9.pdf', thumbnail: '' },
-  { id: 10, title: 'Certificate 10', file: '/Tibule-Portfolio/images/10.pdf', thumbnail: '' },
-  { id: 11, title: 'CamScanner Certificate', file: process.env.PUBLIC_URL + '/images/CamScanner_Certificate.pdf', thumbnail: '' },
+  { id: 1, title: 'Instructor Network', file: '/Tibule-Portfolio/images/1.pdf', thumbnail: '' },
+  { id: 2, title: 'Introduction to Software Development', file: '/Tibule-Portfolio/images/2.pdf', thumbnail: '' },
+  { id: 3, title: 'Verbal Communication and Presentation Skills', file: '/Tibule-Portfolio/images/3.pdf', thumbnail: '' },
+  { id: 4, title: 'Programming with Java', file: '/Tibule-Portfolio/images/4.pdf', thumbnail: '' },
+  { id: 5, title: 'Generative AI: Introduction and Applications', file: '/Tibule-Portfolio/images/5.pdf', thumbnail: '' },
+  { id: 6, title: 'Building AI Powered Chatbots Without Programming', file: '/Tibule-Portfolio/images/6.pdf', thumbnail: '' },
+  { id: 7, title: 'Work Smarter, Not Harder: Time Management for Personal & Professional Productivity', file: '/Tibule-Portfolio/images/7.pdf', thumbnail: '' },
+  { id: 8, title: 'Developing Interpersonal Skills', file: '/Tibule-Portfolio/images/8.pdf', thumbnail: '' },
+  { id: 9, title: 'Generative AI: Prompt Engineering Basics', file: '/Tibule-Portfolio/images/9.pdf', thumbnail: '' },
+  { id: 10, title: 'Introduction to Artificial Intelligence', file: '/Tibule-Portfolio/images/10.pdf', thumbnail: '' },
+  { id: 11, title: 'Systems Development', file: process.env.PUBLIC_URL + '/images/CamScanner_Certificate.pdf', thumbnail: '' },
 ];
 
 const defaultThumbnail = process.env.PUBLIC_URL + '/images/certificate-placeholder.png';

@@ -19,7 +19,7 @@ const About = () => {
           <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS3" className="skill-icon" />
           <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" className="skill-icon" />
           <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" className="skill-icon" />
-          <img src="/images/Java.png" alt="Java" className="skill-icon" />
+         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/640px-Java_programming_language_logo.svg.png" alt="Java" className="skill-icon" />
         </div>
       </div>
     </section>
