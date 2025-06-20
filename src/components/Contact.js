@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,8 +19,14 @@ const Contact = () => {
       alert('Please fill out all fields!');
       return;
     }
-    alert('Message sent! (This is a demo)');
-    setFormData({ name: '', email: '', message: '' });
+
+emailjs.send('service_yg47kre', 'template_7d6eoj8', formData, 'r6uATyB4v_MSdhChC')
+      .then((response) => {
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      }, (error) => {
+        alert('Failed to send message, please try again.');
+      });
   };
 
   return (

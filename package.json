@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Tibule12.github.io/Tibule-Portfolio",
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.6.2",
