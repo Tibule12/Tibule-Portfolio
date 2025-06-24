@@ -7,13 +7,17 @@ import Certificates from './components/Certificates';
 import Testimonials from './components/Testimonials';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
+import Chatbot from './components/Chatbot';
+import WelcomeAssistant from './components/WelcomeAssistant';
 
 function App() {
   return (
     <>
       <Navbar />
+      <WelcomeAssistant />
       <Home />
       <About />
+      <Chatbot />
       <Projects />
       <Certificates />
       <Testimonials />
