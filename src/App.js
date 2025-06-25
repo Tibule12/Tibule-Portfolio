@@ -9,6 +9,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Chatbot from './components/Chatbot';
 import WelcomeAssistant from './components/WelcomeAssistant';
+import AIChatbotTools from './components/AIChatbotTools';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WelcomeAssistant />
       <Home />
       <About />
+      <AIChatbotTools />
       <Chatbot />
       <Projects />
       <Certificates />

@@ -6,6 +6,8 @@ const WelcomeAssistant = () => {
   const messages = [
     "Hello! Welcome to Thulani Mtshwelo's portfolio, where passion meets innovation.",
     "Thulani is a self-taught software developer with a knack for creating AI-powered chatbots and elegant web applications.",
+    "Discover the latest enhancements and features added to this portfolio, showcasing continuous growth and innovation.",
+    "Check out the new AI Chatbot Tools section to learn about the powerful platforms like Landbot and watsonx used in his projects.",
     "Dive into the About section to discover his journey, skills, and the heart behind the code.",
     "Explore the Projects section to see his creativity and technical prowess in action.",
     "Don't miss the Testimonials to hear what others say about working with Thulani.",
