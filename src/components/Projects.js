@@ -62,6 +62,17 @@ const Projects = () => {
     </div>
   </a>
 </div>
+        <div className="portfolio-item beautiful-card">
+          <a href="https://capacitiplacementportal.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <div className="project-image-wrapper">
+              <img src="/images/placeholder.jpg" alt="Capaciti Placement Portal" className="project-image" />
+            </div>
+            <div className="overlay beautiful-overlay">
+              <h3>Capaciti Placement Portal</h3>
+              <p>Placement Portal Website</p>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
   );
