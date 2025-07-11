@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Tibule-Portfolio/static/css/main.d85a14bc.css",
-    "main.js": "/Tibule-Portfolio/static/js/main.ea12d8fc.js",
+    "main.js": "/Tibule-Portfolio/static/js/main.35081461.js",
     "static/media/watsonx.png": "/Tibule-Portfolio/static/media/watsonx.9f6014034df7b603e7ab.png",
     "static/media/Chatbot.png": "/Tibule-Portfolio/static/media/Chatbot.cf2634c6eb7bb24fa9a1.png",
     "static/media/Landbot.png": "/Tibule-Portfolio/static/media/Landbot.373de56ebb3d5f12a27b.png",
     "static/media/Thulani Mtshwelo.jpeg": "/Tibule-Portfolio/static/media/Thulani Mtshwelo.e2a257d4bace2fefa199.jpeg",
     "index.html": "/Tibule-Portfolio/index.html",
     "main.d85a14bc.css.map": "/Tibule-Portfolio/static/css/main.d85a14bc.css.map",
-    "main.ea12d8fc.js.map": "/Tibule-Portfolio/static/js/main.ea12d8fc.js.map"
+    "main.35081461.js.map": "/Tibule-Portfolio/static/js/main.35081461.js.map"
   },
   "entrypoints": [
     "static/css/main.d85a14bc.css",
-    "static/js/main.ea12d8fc.js"
+    "static/js/main.35081461.js"
   ]
 }
