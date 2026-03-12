@@ -63,6 +63,17 @@ const Projects = () => {
   </a>
 </div>
         <div className="portfolio-item beautiful-card">
+          <a href="https://autopromote.org" target="_blank" rel="noopener noreferrer">
+            <div className="project-image-wrapper">
+              <img src="/images/placeholder.jpg" alt="AutoPromote" className="project-image" />
+            </div>
+            <div className="overlay beautiful-overlay">
+              <h3>AutoPromote</h3>
+              <p>Content intelligence platform</p>
+            </div>
+          </a>
+        </div>
+        <div className="portfolio-item beautiful-card">
           <a href="https://capacitiplacementportal.netlify.app/" target="_blank" rel="noopener noreferrer">
             <div className="project-image-wrapper">
               <img src="/images/placeholder.jpg" alt="Capaciti Placement Portal" className="project-image" />

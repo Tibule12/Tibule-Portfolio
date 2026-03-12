@@ -11,20 +11,23 @@ const Chatbot = () => {
   const chatLogRef = useRef(null);
 
   const answers = {
-    "who are you": "I am a chatbot created to answer questions about Thulani Mtshwelo.",
-    "who is thulani": "Thulani Mtshwelo is a passionate self-taught software developer with a love for AI and chatbot development.",
-    "where are you from": "Thulani is from South Africa in the Western Cape province Cape Town , bringing a unique perspective to technology and innovation.",
-    "what can you tell me about him": "Thulani is a dedicated coder who thrives on creativity, perseverance, and delivering user-centric solutions.",
+    "who are you": "I am a chatbot created to answer questions about Thulani Mtshwelo and this portfolio website.",
+    "who is thulani": "Thulani Mtshwelo is a full-stack developer and the founder of AutoPromote, building scalable platforms and intelligent systems.",
+    "where are you from": "Thulani is based in Cape Town, South Africa, and brings a unique perspective to technology and innovation.",
+    "what can you tell me about him": "Thulani is a dedicated software engineer with experience in enterprise environments, Azure AD, and independent product development.",
     "what is your personality": "Thulani is curious, determined, and always eager to learn and collaborate on exciting projects.",
-    "what do you do": "I answer questions about Thulani Mtshwelo's skills, experience, and projects.",
-    "what skills do you have": "Thulani has skills in JavaScript, React, Python, AI, and chatbot development.",
-    "tell me about your projects": "Thulani has built several projects including AI-powered chatbots and web applications.",
-    "how can i contact you": "You can contact Thulani via the contact form on the portfolio website.",
-    "what is thulani good at": "Thulani is skilled in JavaScript, React, Python, AI, and chatbot development, with a passion for creating innovative software solutions.",
-    "why did thulani choose to be a developer": "Thulani chose to be a developer driven by a passion for technology, creativity, and the desire to solve real-world problems through code.",
-    "what makes you love coding": "Thulani loves coding because it allows him to bring ideas to life, continuously learn new things, and create impactful solutions.",
-    "default": "Sorry, I don't understand that question. Please ask something else about Thulani."
-  };
+    "what do you do": "I answer questions about Thulani's skills, experience, projects, and the content of this portfolio.",
+    "what skills do you have": "Thulani works with JavaScript, TypeScript, Python, React, Next.js, Vue, Django, Node.js, Postgres, Firebase, Supabase, Azure AD, Power Apps, and Power BI.",
+    "tell me about your projects": "The Projects section features apps Thulani built, including the AutoPromote content intelligence platform, several community websites, and AI chatbots.",
+    "how can i contact you": "You can reach Thulani using the contact form on this site, or via email at thulani.mtshwelo@capaciti.org.za.",
+    "what is thulani good at": "Thulani excels at building efficient, scalable web systems and integrating modern tools to solve real problems.",
+    "why did thulani choose to be a developer": "Thulani became a developer because he loves turning ideas into working software and continuously learning.",
+    "what makes you love coding": "He loves coding because it allows him to create impactful solutions and experiment with new technologies.",
+    "where can i see your resume": "There's a download link on the Resume section where you can get Thulani's CV (PDF hosted on the site).",
+
+    "do you have certificates": "Yes, check the Certificates section for a gallery of Thulani's training certificates.",
+    "can i see testimonials": "Testimonials from clients and colleagues are available in the Testimonials section of this portfolio.",
+    "default": "I didn't catch that. Try asking about Thulani's skills, projects, contact info, or use the site navigation."  };
 
   const handleSend = () => {
     if (!input.trim()) return;
@@ -36,19 +39,19 @@ const Chatbot = () => {
     let answer = answers[question];
     if (!answer) {
       if (question.includes('portfolio') || question.includes('projects') || question.includes('work')) {
-        answer = "I have built several projects including AI-powered chatbots and web applications. You can explore them in the Projects section of my portfolio.";
-      } else if (question.includes('skills') || question.includes('technologies') || question.includes('good at')) {
-        answer = "I have skills in JavaScript, React, Python, AI, and chatbot development.";
-      } else if (question.includes('contact') || question.includes('reach')) {
-        answer = "You can contact me via the contact form on the portfolio website.";
-      } else if (question.includes('personality') || question.includes('about you')) {
-        answer = "I am curious, determined, and always eager to learn and collaborate on exciting projects.";
-      } else if (question.includes('why') && question.includes('developer')) {
-        answer = "Thulani chose to be a developer driven by a passion for technology, creativity, and the desire to solve real-world problems through code.";
-      } else if (question.includes('love') && question.includes('coding')) {
-        answer = "Thulani loves coding because it allows him to bring ideas to life, continuously learn new things, and create impactful solutions.";
-      } else {
-        answer = answers["default"];
+        answer = "The Projects section highlights apps Thulani has built, including AutoPromote and several community websites. Take a look there!";
+      } else if (question.includes('skills') || question.includes('technologies') || question.includes('good at') || question.includes('stack')) {
+        answer = "You can find a list under Core Technologies: JavaScript, TypeScript, Python, React, Next.js, Vue, Django, Node.js, REST APIs, PostgreSQL, Firebase, Supabase, Azure AD, Power Apps and Power BI.";
+      } else if (question.includes('contact') || question.includes('reach') || question.includes('email')) {
+        answer = "Use the contact form or email Thulani at thulani.mtshwelo@capaciti.org.za. Details are in the Contact section.";
+      } else if (question.includes('resume') || question.includes('cv')) {
+        answer = "There's a downloadable resume in the Resume section.";
+      } else if (question.includes('certificate')) {
+        answer = "Certificates appear in the Certificates section; click any card to view the PDF.";
+      } else if (question.includes('testimonial') || question.includes('what people say')) {
+        answer = "Testimonials from previous clients and colleagues are shown in the Testimonials section.";
+      } else if (question.includes('about') || question.includes('journey') || question.includes('background')) {
+        answer = "Head to the About section to read about Thulani's path, values, and current work.";
       }
     }
 

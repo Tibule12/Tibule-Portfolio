@@ -5,70 +5,24 @@ const About = () => {
       <h2>About Me</h2>
       <div className="about-content">
         <p>
-          My journey into coding is fueled by an unyielding passion and an insatiable curiosity. Without the traditional university path, I forged my own way through relentless self-learning, hands-on experimentation, and crafting meaningful projects that truly reflect my dedication and creativity.
+          I am a full-stack developer focused on building scalable platforms and intelligent digital systems. My work spans both enterprise environments and independent product development, combining modern web technologies with practical system architecture.
         </p>
         <p>
-          I believe that genuine talent and determination come from the heart, and I pour that spirit into every line of code I write. My mission is to create elegant, efficient, and user-centric solutions that not only solve problems but also inspire and delight.
+          Currently, I work as a Full-Stack Developer at Fine Chemicals Corporation where I am developing an internal Integrity Hub for declaration and conflict-of-interest management. The system integrates with Azure Active Directory and Single Sign-On to support secure identity and enterprise workflows. I also contribute to internal solutions using SharePoint, Power Apps, and Power BI.
         </p>
         <p>
-          Eager to collaborate, innovate, and grow, I am committed to delivering exceptional value to clients and teams through creativity, perseverance, and a deep love for technology.
+          Alongside my professional work, I am the founder and technical architect of AutoPromote, a content intelligence platform designed to help creators test and optimize content performance before scaling across platforms. The system integrates with platforms such as TikTok, YouTube, LinkedIn, Reddit, and Meta, combining analytics, experimentation, and AI-assisted improvements.
         </p>
         <p>
-          Additionally, I have built AI-powered chatbots that demonstrate my skills in artificial intelligence and conversational interfaces, showcasing my ability to create innovative and interactive user experiences.
+          My approach to software development focuses on building efficient, scalable systems that solve real problems. I enjoy working across the full stack, from designing backend architecture and APIs to building responsive user interfaces and optimizing infrastructure.
         </p>
         <div className="skills">
-          <div className="skill-item" title="HTML5">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg" alt="HTML5" className="skill-icon" />
-            <span className="skill-label">HTML5</span>
-          </div>
-          <div className="skill-item" title="CSS3">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS3" className="skill-icon" />
-            <span className="skill-label">CSS3</span>
-          </div>
-          <div className="skill-item" title="JavaScript">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" className="skill-icon" />
-            <span className="skill-label">JavaScript</span>
-          </div>
-          <div className="skill-item" title="React">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/react.svg" alt="React" className="skill-icon" />
-            <span className="skill-label">React</span>
-          </div>
-          <div className="skill-item" title="Java">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/640px-Java_programming_language_logo.svg.png" alt="Java" className="skill-icon" />
-            <span className="skill-label">Java</span>
-          </div>
-          <div className="skill-item" title="Python">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" className="skill-icon" />
-            <span className="skill-label">Python</span>
-          </div>
-          <div className="skill-item" title="Node.js">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" className="skill-icon" />
-            <span className="skill-label">Node.js</span>
-          </div>
-          <div className="skill-item" title="Vue.js">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="Vue.js" className="skill-icon" />
-            <span className="skill-label">Vue.js</span>
-          </div>
-          <div className="skill-item" title="Django">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/django.svg" alt="Django" className="skill-icon" />
-            <span className="skill-label">Django</span>
-          </div>
-          <div className="skill-item" title="Firebase">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/firebase.svg" alt="Firebase" className="skill-icon" />
-            <span className="skill-label">Firebase</span>
-          </div>
-          <div className="skill-item" title="Supabase">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/supabase.svg" alt="Supabase" className="skill-icon" />
-            <span className="skill-label">Supabase</span>
-          </div>
-          <div className="skill-item" title="MongoDB">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mongodb.svg" alt="MongoDB" className="skill-icon" />
-            <span className="skill-label">MongoDB</span>
-          </div>
-          <div className="skill-item" title="PostgreSQL">
-            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/postgresql.svg" alt="PostgreSQL" className="skill-icon" />
-            <span className="skill-label">PostgreSQL</span>
-          </div>
+          <h3>Core Technologies</h3>
+          <p>JavaScript • TypeScript • Python</p>
+          <p>React • Next.js • Vue • Django</p>
+          <p>Node.js • REST APIs</p>
+          <p>PostgreSQL • Firebase • Supabase</p>
+          <p>Azure AD • Power Apps • Power BI</p>
         </div>
       </div>
     </section>
