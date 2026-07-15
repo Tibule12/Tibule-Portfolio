@@ -23,7 +23,7 @@ const Chatbot = () => {
     "what is thulani good at": "Thulani excels at building efficient, scalable web systems and integrating modern tools to solve real problems.",
     "why did thulani choose to be a developer": "Thulani became a developer because he loves turning ideas into working software and continuously learning.",
     "what makes you love coding": "He loves coding because it allows him to create impactful solutions and experiment with new technologies.",
-    "where can i see your resume": "There's a download link on the Resume section where you can get Thulani's CV (PDF hosted on the site).",
+    "where can i see your resume": "There's a download link in the Resume section where you can get Thulani's CV, Thulani_Mtshwelo_Professional_CV.pdf, directly from the site.",
 
     "do you have certificates": "Yes, check the Certificates section for a gallery of Thulani's training certificates.",
     "can i see testimonials": "Testimonials from clients and colleagues are available in the Testimonials section of this portfolio.",
@@ -45,7 +45,7 @@ const Chatbot = () => {
       } else if (question.includes('contact') || question.includes('reach') || question.includes('email')) {
         answer = "Use the contact form or email Thulani at thulani.mtshwelo@capaciti.org.za. Details are in the Contact section.";
       } else if (question.includes('resume') || question.includes('cv')) {
-        answer = "There's a downloadable resume in the Resume section.";
+        answer = "There's a downloadable CV in the Resume section named Thulani_Mtshwelo_Professional_CV.pdf.";
       } else if (question.includes('certificate')) {
         answer = "Certificates appear in the Certificates section; click any card to view the PDF.";
       } else if (question.includes('testimonial') || question.includes('what people say')) {
