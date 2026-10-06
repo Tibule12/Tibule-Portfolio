@@ -1,15 +1,13 @@
 {
   "files": {
     "main.css": "/Tibule-Portfolio/static/css/main.e76d6110.css",
-    "main.js": "/Tibule-Portfolio/static/js/main.03a951db.js",
-    "static/media/Chatbot.png": "/Tibule-Portfolio/static/media/Chatbot.cf2634c6eb7bb24fa9a1.png",
-    "static/media/Thulani Mtshwelo.jpeg": "/Tibule-Portfolio/static/media/Thulani Mtshwelo.e2a257d4bace2fefa199.jpeg",
+    "main.js": "/Tibule-Portfolio/static/js/main.db798536.js",
     "index.html": "/Tibule-Portfolio/index.html",
     "main.e76d6110.css.map": "/Tibule-Portfolio/static/css/main.e76d6110.css.map",
-    "main.03a951db.js.map": "/Tibule-Portfolio/static/js/main.03a951db.js.map"
+    "main.db798536.js.map": "/Tibule-Portfolio/static/js/main.db798536.js.map"
   },
   "entrypoints": [
     "static/css/main.e76d6110.css",
-    "static/js/main.03a951db.js"
+    "static/js/main.db798536.js"
   ]
 }
