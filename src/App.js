@@ -7,7 +7,6 @@ import Certificates from './components/Certificates';
 import Testimonials from './components/Testimonials';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
-import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Chatbot />
       <Projects />
       <Certificates />
       <Testimonials />
