@@ -12,7 +12,7 @@ const certificates = [
   { id: 9, title: 'Generative AI: Prompt Engineering Basics', file: '/Tibule-Portfolio/images/9.pdf', thumbnail: '' },
   { id: 10, title: 'Introduction to Artificial Intelligence', file: '/Tibule-Portfolio/images/10.pdf', thumbnail: '' },
   { id: 11, title: 'Full Stack Web Development', file: '/Tibule-Portfolio/images/11.pdf', thumbnail: '' },
-  { id: 12, title: 'Systems Development', file: process.env.PUBLIC_URL + '/images/CamScanner_Certificate.pdf', thumbnail: '' },
+  { id: 12, title: 'National Certificate: Information Technology: Systems Development — NQF Level 5 (SAQA ID 48872)', file: process.env.PUBLIC_URL + '/images/CamScanner_Certificate.pdf', thumbnail: '' },
 ];
 
 const defaultThumbnail = process.env.PUBLIC_URL + '/images/certificate-placeholder.png';
